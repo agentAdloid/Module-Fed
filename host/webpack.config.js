@@ -44,7 +44,7 @@ module.exports = {
       name: "host",
       filename: "remoteEntry.js",
       remotes: {
-        remote: "remote@http://localhost:8080/remoteEntry.js",
+        remote: "remote@./dist/remoteEntry.js",
       },
       exposes: {},
       shared: {
